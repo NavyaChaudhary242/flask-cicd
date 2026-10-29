@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify(message="Hello from CI/CD pipeline", status="running")
+    return jsonify(message="Hello from CI/CD pipeline v2", status="running")
 
 def add(a, b):
     return a + b
